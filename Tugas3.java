@@ -11,9 +11,9 @@ static boolean cek(int n, int i) {
     return cek(n, i + 1);
     }
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
     System.out.print("Masukkan bilangan untuk dicek apakah prima: ");
-    int n = sc.nextInt();
+    int n = scanner.nextInt();
     if (n >= 2 && cek(n, 2)) {
     System.out.println(n + " adalah bilangan prima.");
     } else {
